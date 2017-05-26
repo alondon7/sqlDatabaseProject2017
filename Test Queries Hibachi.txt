@@ -1,0 +1,26 @@
+Select *
+From logical_model_hibachi.combo;
+
+Select *
+From logical_model_hibachi.customer_phonein;
+
+Select *
+From logical_model_hibachi.employee;
+
+Select *
+From logical_model_hibachi.inventory;
+
+Select *
+From logical_model_hibachi.menu;
+
+Select *
+From logical_model_hibachi.order;
+
+Select *
+From logical_model_hibachi.order_men;
+
+Select *
+From logical_model_hibachi.transaction;
+
+Select *
+From logical_model_hibachi.vendor;

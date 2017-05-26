@@ -1,0 +1,116 @@
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Costco', '5551155555', '123 Fake Street', 'Tucker', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Wal Mart', '5551165556', '124 Sake Street', 'Decatur', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Kroger', '5551175557', '125 Dont Do it St', 'Decatur', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Dek FM', '5551185559', '127 Yes Man Dr', 'Decatur', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Food Lion', '5551195560', '128 No Man Dr', 'Tucker', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Chevron', '5551204567', '129 Everywhere', 'Litmus', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Depot', '5551218749', '3090 Yes Ave', 'Decatur', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Publix', '5559872354', '30 Publix Ave', 'Decatur', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Rainbow Foods', '5557874343', '1 Rainbow Place', 'Tucker', 'GA');
+INSERT INTO `logical_model_hibachi`.`vendor` (`Vendor_Name`, `Vendor_Phone`, `Vendor_Address`, `Vendor_City`, `Vendor_State`) VALUES ('Lenox Sq Mall', '55578732375', '1 Lenox Dr', 'Buckhead', 'GA');
+
+
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Kim', 'Myungnam', '1 Generic St', 'Tucker', 'GA', '4045556848');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Kim', 'Frank', '1 Generic St', 'Tucker', 'GA', '4045557894');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Lopez', 'Mark', '2 Happy Cove', 'Tucker', 'GA', '7703345867');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Smith', 'George', '3 FlyHigh Drive', 'Tucker', 'GA', '7704548989');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Clinton', 'Bill', '113 Whitehouse Ln', 'Decatur', 'GA', '7704547878');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Chapelle', 'Dave', '20 MLK Drive', 'Decatur', 'GA', '7708984512');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Winston', 'Charles', '45 Happy Dr', 'Decatur', 'GA', '7704548988');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Griffin', 'Peter', '34 Quahog', 'Tucker', 'RI', '4046763241');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('White', 'Donna', '45 seventies pl', 'Decatur', 'GA', '7876045125');
+INSERT INTO `logical_model_hibachi`.`employee` (`Emp_Lname`, `Emp_Fname`, `Emp_Address`, `Emp_City`, `Emp_State`, `Emp_Phone`) VALUES ('Black', 'Christina', '78 Rick St', 'Decatur', 'GA', '4045457898');
+
+
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Doe', 'John', '55555588888', '1');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Smith', 'Jane', '7879596265', '0');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Hardy', 'Thomas', '4545653214', '1');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Wang', 'Yang', '7894563215', '0');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Andrew', 'Marla', '7879596451', '1');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Comer', 'Martha', '7874541245', '0');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Moore', 'Steven', '4547871234', '1');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Lenken', 'Elizabeth', '4546768974', '0');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Goofy', 'Movie', '5456879854', '1');
+INSERT INTO `logical_model_hibachi`.`customer_phonein` (`Cust_Lname`, `Cust_Fname`, `Cust_Phone`, `Cust_Blacklist`) VALUES ('Dicaprio', 'Leo', '8984561234', '1');
+
+
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-23 17:23', '10.03', 'Cash', '0.07', '0.66');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-23 17:28', '21.41', 'Debit', '0.07', '0.40');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-23 17:45', '20.39', 'Credit', '0.07', '1.33');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-23 17:47', '2.56', 'Check', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-23 16:01', '2.56', 'Cash', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-24 17:01', '2.56', 'Cash', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-24 18:01', '2.56', 'Credit', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-24 19:01', '2.56', 'Debit', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-24 20:01', '2.56', 'Credit', '0.07', '0.17');
+INSERT INTO `logical_model_hibachi`.`transaction` (`Trans_Date_Time`, `Trans_Total`, `Trans_Type`, `Trans_TaxRate`, `Trans_TaxTotal`) VALUES ('2017-03-24 20:01', '2.56', 'Check', '0.07', '0.17');
+
+
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Chicken Salad', '5.99', '');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Steak Salad', '8.29');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Shrimp Salad', '7.46');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Salad', '2.39');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Zucc Onions', '1.99');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Sweet Carrots', '1.99');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Fried Rice', '1.39');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`) VALUES ('Ginger Dress', '.93');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Chicken Entree', '5.99', 'Regular');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Chicken Entree', '9.49', 'Large');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Steak Entree', '8.29', 'Regular');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Steak Entree', '11.59', 'Large');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Shrimp Entree', '7.46', 'Regular');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Shrimp Entree', '10.79', 'Large');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Scollop Entree', '8.97', 'Regular');
+INSERT INTO `logical_model_hibachi`.`menu` (`Menu_Desc`, `Menu_Price`, `Menu_Size`) VALUES ('Scollop Entree', '12.59', 'Large');
+
+
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 1', '9.37', '3', '10.03', '2017-03-23 17:22:00', '1', '2', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 2', '20.01', '3', '21.41', '2017-03-23 17:26:00', '2', '4', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 3', '19.05', '2', '20.39', '2017-03-23 17:44:00', '3', '6', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 4', '2.39', '1', '2.56', '2017-03-23 17:46:00', '4', '8', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 5', '2.39', '1', '2.56', '2017-03-23 16:00:00', '5', '2', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 6', '2.39', '1', '2.56', '2017-03-24 17:00:00', '6', '4', 'Dine In', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 7', '2.39', '1', '2.56', '2017-03-24 18:00:00', '7', '6', 'Carry Out', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 8', '2.39', '1', '2.56', '2017-03-24 19:00:00', '8', '8', 'Carry Out', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 9', '2.39', '1', '2.56', '2017-03-24 20:00:00', '9', '2', 'Carry Out', '1');
+INSERT INTO `logical_model_hibachi`.`order` (`Order_Desc`, `Order_SubTotal`, `Order_Item_Quantity`, `Order_Total`, `Order_Date_Time`, `FK_Trans_ID`, `FK_Cust_ID`, `Order_Type`, `FK_Emp_ID`) VALUES ('Order 10', '2.39', '1', '2.56', '2017-03-24 20:00:00', '10', '4', 'Carry Out', '1');
+
+
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('1', '1');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('1', '7');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('1', '5');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('2', '11');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('2', '8');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('2', '14');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('3', '3');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('3', '12');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('4', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('5', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('6', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('7', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('8', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('9', '4');
+INSERT INTO `logical_model_hibachi`.`order_men` (`FK_Ord_ID`, `FK_Menu_ID`) VALUES ('10', '4');
+
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('9', 'Double Chicken');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('9', 'Chicken Steak');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('9', 'Chicken Shrimp');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('9', 'Chicken Scallops');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('11', 'Double Steak');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('11', 'Steak Shrimp');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('11', 'Steak Scallops');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('13', 'Double Shrimp');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('13', 'Shrimp Scallops');
+INSERT INTO `logical_model_hibachi`.`combo` (`FK_Menu_ID`, `Combo_Desc`) VALUES ('15', 'Double Scallops');
+
+
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Rice', '10 Lbs', 'Perishable', '1', '2017-03-01', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Scallops', '50 oz', 'Perishable', '1', '2017-03-01', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Onions', '5 lbs', 'Perishable', '1', '2017-03-01', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Zucchini', '32 oz', 'Perishable', '1', '2017-03-01', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('SF Tray', '64 oz', 'Utensil', '1', '2017-03-05', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Steak', '20 lbs', 'Perishable', '1', '2017-03-05', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Chicken', '10 lbs', 'Perishable', '1', '2017-03-05', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Napkin', '15 lbs', 'Utensil', '1', '2017-03-05', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Dressing', '160 oz', 'Condiment', '1', '2017-03-05', '1');
+INSERT INTO `logical_model_hibachi`.`inventory` (`Inv_Name`, `Inv_Weight`, `Inv_Desc`, `FK_Vendor_ID`, `Inv_Date`, `FK_Emp_ID`) VALUES ('Lettuce', '48 oz', 'Perishable', '1', '2017-03-05', '1');
